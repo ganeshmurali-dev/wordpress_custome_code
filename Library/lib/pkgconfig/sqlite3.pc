@@ -1,0 +1,12 @@
+# Package Information for pkg-config
+
+prefix=/Applications/MAMP/Library
+includedir=${prefix}/lib/sqlite3/include
+libdir=${prefix}/lib/sqlite3/lib
+
+Name: SQLite
+Description: SQL database engine
+Version: 3.47.0
+Libs: -L${libdir} -lsqlite3
+Libs.private: -lz 
+Cflags: -I${includedir}
