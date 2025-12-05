@@ -1,0 +1,41 @@
+# Large database and binary files
+db/mysql**/binlog.*
+db/mysql**/ib_*
+db/mysql**/mysql-bin.*
+db/mysql**/*.log
+
+# Large library files
+Library/bin/mysql**/mysqld
+Library/bin/mysql**/mysqld_safe
+
+# Python package cache and databases
+bin/python/**/*.db
+bin/python/**/*.sqlite*
+bin/python/**/site-packages/**/*.db
+bin/python/**/site-packages/**/*.sqlite*
+bin/python/**/site-packages/pigar/.db.sqlite3
+
+# Session files
+tmp/php/sess_*
+
+# Log files
+logs/**/*.log
+
+# OS files
+.DS_Store
+Icon
+
+# Node modules and dependencies
+node_modules/
+package-lock.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.env.local

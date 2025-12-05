@@ -1,0 +1,9 @@
+== 1.0.2 : 2025-10-16 ==
+- Fix : Underline issue fixed.
+
+== 1.0.1 : 2025-10-07 ==
+- Fix : Underline issue fixed and image url updated.
+- Fix : prefix the function in custom script file.
+
+== 1.0.0 : 2025-09-25 ==
+	* Submit theme on wordpress.org trac.

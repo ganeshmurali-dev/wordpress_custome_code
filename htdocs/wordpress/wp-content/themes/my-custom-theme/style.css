@@ -1,0 +1,11 @@
+/*
+Theme Name: My Custom Theme
+Theme URI: https://example.com
+Author: You
+Description: Full custom theme with left + right sidebar layout
+Version: 1.0
+*/
+body { margin:0; background:#f4f4f4; font-family:Montserrat, sans-serif; }
+.layout { display:flex; padding:20px; gap:20px; }
+.sidebar { width:260px; background:white; padding:20px; border-radius:14px; height:100vh; position:sticky; top:0; }
+.content { flex:1; background:white; padding:20px; border-radius:14px; }

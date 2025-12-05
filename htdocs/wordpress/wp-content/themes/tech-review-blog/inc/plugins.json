@@ -1,0 +1,16 @@
+[{
+  "name": "Elementor",
+  "slug": "elementor",
+  "required": false,
+  "force_activation": false
+}, {
+  "name": "Kirki Customizer Framework",
+  "slug": "kirki",
+  "required": false,
+  "force_activation": false
+},{
+  "name": "Royal Elementor Addons",
+  "slug": "royal-elementor-addons",
+  "required": false,
+  "force_activation": false
+}]
